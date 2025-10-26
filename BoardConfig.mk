@@ -157,6 +157,9 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true 
 TWRP_EVENT_LOGGING := true
 
+# Enforce Vintf Manifest
+PRODUCT_ENFORCE_VINTF_MANIFEST := true
+
 # Samsung
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
